@@ -1,0 +1,5 @@
+print('-' * 50)
+d = float(input('Digite a quantia em reais: R$'))
+print('-' * 50)
+print('com R${:.2f} você consegue comprar US${:.2f}'.format(d, d/5.54))
+print('-' * 50)
